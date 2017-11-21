@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" defer></script>
+  <script src="dist/js/bootstrap-checkbox.min.js" defer></script>
+</head>
+<body>
+<input id="input-1" type="checkbox">
+<script>
+$('#input-1').checkboxpicker({
+  html: true,
+  offLabel: '<span class="glyphicon glyphicon-remove">',
+  onLabel: '<span class="glyphicon glyphicon-ok">'
+});
+</script>
+</body>
+</html>
